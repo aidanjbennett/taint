@@ -1,0 +1,26 @@
+{
+  "name": "taint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "lint": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanjbennett/taint.git"
+  },
+  "keywords": [],
+  "author": "Aidan James Bennett",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/aidanjbennett/taint/issues"
+  },
+  "homepage": "https://github.com/aidanjbennett/taint#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1"
+  }
+}
